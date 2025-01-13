@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+body{
+    width: 1440px;
+    height: 992px;
+    overflow: hidden; 
+    flex-wrap: wrap;
+}
+.sideSection {
+    display: inline-flex;
+    padding: 12px 28px 708px 28px;
+    background: #E7EEFF;
+}
+.sideBar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+/*  */
+.navSection {
+    max-width: 1336px;
+    width: 100%;
+    padding: 20px 0px;
+    display: inline-block;
+    background: #E7EEFF;
+    position: absolute;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navStart{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/*  */
+.underHeader{
+    display: inline-flex;
+    position: absolute;
+    top: 120px;
+    right: 96px;
+}
+.underContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.location{
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+.date{
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+.user{
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+/*  */
+.contentSection{
+    display: inline-flex;
+    position: absolute;
+    top: 200px;
+    left: 196px;
+}
+.mainContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 42px;
+    grid-row-gap: 42px;
+}
+.firstContent img {
+    width: 100%;
+    display: block;
+    height: 275px;
+    align-self: stretch;
+}
+.imgText {
+    padding: 8px 12px;
+    gap: 4px;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+.imgText h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.imgText p {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px
+}
