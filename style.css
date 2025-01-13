@@ -47,10 +47,13 @@ body{
 }
 /*  */
 .underHeader{
-    display: inline-flex;
+    max-width: 1336px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
     position: absolute;
     top: 120px;
-    right: 96px;
+    
 }
 .underContent{
     display: flex;
